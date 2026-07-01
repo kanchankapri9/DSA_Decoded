@@ -1,0 +1,79 @@
+// package 0DSA.5Collection_Framework;
+
+// A linked list is a linear data structure where each element is a separate object. 
+// collection of nodes where each node contains data and a reference to the next node in the list.
+// linked list are non-contiguous data structure, meaning that the elements are not stored in contiguous memory locations.
+
+
+
+// consists of 3 main components:
+// 1. Node: A node is a basic unit of a linked list that contains data and a reference to the next node in the list.
+// 2. Head: The head of the linked list is the first node in the list. 
+// 3. Tail: The tail of the linked list is the last node in the list, which points to null.
+
+//      Previous refrence            data         next reference
+
+ import java.util.*;
+//  import java.util.LinkedList;
+public class LinkedListdemo {
+    public static void main(String[] args) {
+        // creating a linked list
+        LinkedList<Integer> list = new LinkedList<>();   // creating a linked list object
+        LinkedList<Integer> list2 = new LinkedList<>();   // creating a linked list object
+
+
+        // adding elements to the linked list
+        list.add(10);
+        list.add(20);
+        list.add(30);
+
+        // printing the linked list
+        System.out.println(list);
+    }
+}
+
+
+
+
+
+
+
+/*
+
+❌ Mistakes You Made
+Class name conflict
+
+You wrote:
+
+java
+public class LinkedList {
+This defines your own class called LinkedList.
+
+But Java already has a built‑in class java.util.LinkedList.
+
+Because of the name clash, when you write:
+
+java
+LinkedList list = new LinkedList();
+Java thinks you mean your class, not the library one.
+
+Your class doesn’t have add() or other methods, so compilation fails.
+
+Not specifying generic type
+
+You wrote:
+
+java
+LinkedList list = new LinkedList();
+Without <Integer>, this uses a raw type, which is discouraged.
+
+Correct usage is:
+
+java
+LinkedList<Integer> list = new LinkedList<>();
+
+
+*/
+
+
+

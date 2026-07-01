@@ -1,0 +1,40 @@
+----------------------------------------------------------------------------------
+** Problem Understanding
+
+What is substring : 
+A continuous part of the string.
+
+abc
+bca
+cab
+
+are substrings.
+
+----------------------------------------------------------------------------------
+
+
+What is subsequence :
+A non continuous part of the string.
+
+
+----------------------------------------------------------------------------------
+
+                   ** What is the Solution ?
+
+The Longest Substring Without repeating of characters.
+
+----------------------------------------------------------------------------------
+
+                   ** What is the Approach ?
+
+1. Brute Force Approach :   How can I generate all possible substring and then check for the longest one without repeating characters.
+
+Take every starting position.   int i=0 to n -1
+
+From that position keep extending.  int j = i to n -1
+
+Store characters in a Set.
+
+If duplicate appears stop.
+
+Update max length.

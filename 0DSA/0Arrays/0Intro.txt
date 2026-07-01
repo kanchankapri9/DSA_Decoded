@@ -1,0 +1,53 @@
+What is Array?
+
+An array is a data structure that can hold a fixed number of values of the same type.
+ It is a collection of elements, each identified by an index or key. 
+ Arrays are used to store multiple values in a single variable, 
+ making it easier to manage and manipulate data.
+
+
+
+ *** Important Terms ***
+
+ Contiguous memory allocation : a memory management technique where a process is assigned a single continuous block of memory, 
+                                ensuring sequential access and efficient execution. 
+
+Indexing : the process of accessing individual elements in an array using their position or index.
+
+Array = Ordered collection of data that can be accessed instantly using an index.
+
+Types of Arrays:
+1. One-dimensional array: A linear array that stores elements in a single row or column. 
+   Example: int arr[5] = {1, 2, 3, 4, 5};
+2. Multi-dimensional array: An array that can store data in multiple dimensions, such as 2D or 3D arrays.
+
+
+
+Advantages of Arrays:
+1. Fast access: Arrays allow for constant time access to elements using their index.
+2. Efficient memory usage: Arrays can be stored in contiguous memory locations, which can improve cache performance.
+3. Easy to use: Arrays provide a simple way to store and manipulate collections of data.
+
+Disadvantages of Arrays:
+1. Fixed size: The size of an array must be defined at the time of declaration and cannot be changed during runtime.
+2. Homogeneous data: Arrays can only store elements of the same type, which can limit their flexibility.
+
+
+
+
+                    *** Example ***
+
+posts = [
+  post1,
+  post2,
+  post3,
+  ...
+]
+
+recommendedVideos[0]
+recommendedVideos[1]
+recommendedVideos[2]
+
+
+Next Song - currentSong + 1
+
