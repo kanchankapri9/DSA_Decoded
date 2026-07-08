@@ -17,5 +17,22 @@ class Daa {
 }
 
 
+// My Question is ?
+// When we already defined the properties in the class , why we write constructor to initialize the properties of the class ?
+// and one more thing , if we already making the Object and we there , giving the values to the properties of the class, then why we need to write constructor to initialize the properties of the class ?
 
-public class Constructor {
+
+/*
+
+Answer :  
+
+        because , we want to initialize the properties of the class when we create an object of that class. 
+        we can pass values to the constructor to initialize the properties of the class.    
+        
+        meanse:
+        
+
+
+
+
+*/
