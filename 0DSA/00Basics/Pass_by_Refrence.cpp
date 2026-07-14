@@ -14,13 +14,13 @@ Pass by value  is
 
 
 
-#include <stdio.h>
+#include <iostream>
 using namespace std;
 
 
                   
 void hi() {
-
+    int i = 1;
     cout << i << endl;
     i += 7;
     cout << i << endl;
@@ -72,3 +72,14 @@ Pass by refrence
 
 
 
+
+
+
+// run commmand :
+
+
+
+
+g++ Pass_by_Refrence.cpp -o Pass_by_Refrence.exe
+
+.\Pass_by_Refrence.exe
