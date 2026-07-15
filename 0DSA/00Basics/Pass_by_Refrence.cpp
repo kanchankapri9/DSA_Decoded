@@ -1,12 +1,20 @@
-                               // Pass by Value vs Pass by Refrence
+                                            // Pass by Value vs Pass by Refrence
 //------------------------------------------------------------------------------------------------
 
 
-// Pass by Value 
+                                                         // Pass by Refrence
+
 
 /*
 
-Pass by value  is
+Pass by Refrence  :   it takes the address of the variable , it does not take the copy of the variable  is, it takes the address of the variable that is passed to the function.
+                     and if we will print the varible in main function , it will print the address of the variable that is passed to the function.
+                     and if we will print the varible in the function , it will print the address of the variable that is passed to the function. 
+                     
+                     and since it taked the address of the variable in parameters, so it will manuplate the orignal,
+                     and when we will print the varible in main function , it will print the changed value of the variable that is passed to the function.
+                     and if  we print the varible with the & operator in the function , it will print the address of the variable that is passed to the function.
+                     and if we print the varible with the & operator in the main function , it will
 
 
 
@@ -60,13 +68,13 @@ int main () {
 
 //------------------------------------------------------------------------------------------------
 
-                                                                 // Pass by refrence
+                                                                  // Pass by Value
 
 
 
 /*
 
-Pass by refrence  :   only takes the copy , it does not change the original value of the varible. 
+Pass by Value  :   only takes the copy , it does not change the original value of the varible. 
                      it does everything with the copy of the variable , it does not change the original value of the variable.
                      like , if we pass a variable by refrence to a funciton , it will not change the original value of the variable , it will only change the copy of the variable that is passed to the function.
                      and if we will print the varible in main function , it will print the original value of the variable , 
@@ -118,7 +126,7 @@ Pass by refrence  :   only takes the copy , it does not change the original valu
 
 
 
-// run commmand :
+// run commmand :  for executing c++.
 
 
 // g++ Pass_by_Refrence.cpp -o Pass_by_Refrence.exe
