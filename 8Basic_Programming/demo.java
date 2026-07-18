@@ -43,3 +43,5 @@ public class demo {
 // 10. `System.out.println(sum);`: This line prints the value of `sum` to the console.
 // 11. `}`: This line ends the loop.
 // 12. `}`: This line ends the `main()` method.
+
+
