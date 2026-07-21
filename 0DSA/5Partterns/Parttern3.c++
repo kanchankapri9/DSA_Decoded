@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -9,7 +10,7 @@ public:
 
         for(int i=0; i<n; i++) {
             for(int j=0; j<=i; j++) {              
-                cout << j + 1 << " ";
+                cout << i + 1 << " ";    // 1, 22, 333
             }
             cout << endl;
         }
