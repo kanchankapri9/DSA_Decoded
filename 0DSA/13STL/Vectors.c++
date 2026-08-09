@@ -30,6 +30,21 @@ int main() {
     // implce back() function is used to add an element at the end of the vector.
     numbers.emplace_back(40);   // the diffrence between push_back() and emplace_back() is that push_back() creates a copy of the object and adds it to the vector, while emplace_back() constructs the object in place, avoiding the need for a copy.
     //  Implace back is more faster than push_back() because it avoids the overhead of creating a temporary object and copying it into the vector.
-    
+
+
+
+    // Pair type of vector
+    vector<pair<int, int>> vec;
+    vec.push_back({1, 2});
+    vec.push_back({3, 4});
+
+    // Push back and implace back in the vectors 
+    vec.emplace_back(5,6);
+    vec.push_back({7,8}); // syntax diffrenciation .
+
+    // Display the elements of the vector
+    for (const auto& p : vec) {
+        cout << "(" << p.first << ", " << p.second << ")" << endl;
+    }
     return 0;
 }
